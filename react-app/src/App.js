@@ -3,17 +3,21 @@ import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Message from './components/Message';
+import Counter from './components/Counter';
+
 
 function App() {
   return (
     <div className="App">
-      <Greet  name="Bruce" superHeroName="Batman">
+      {/*<Counter />*/}
+      {/* <Greet  name="Bruce" superHeroName="Batman">
         this is children props
       </Greet>
-      <Greet name="Clark" superHeroName="Superman"/>
-      <Greet name="Diana" superHeroName="Wonder Woman"/>
+  <Greet name="Clark" superHeroName="Superman"/> */}
+      {/* <Greet name="Diana" superHeroName="Wonder Woman"/> */}
 
-      <Welcome name="Bruce" superHeroName="Batman"/>
+      {/* <Welcome name="Bruce" superHeroName="Batman"/> */}
       {/*<Hello /> */}
     </div>
   );
